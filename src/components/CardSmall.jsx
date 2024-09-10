@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 const CardSmall = ({ title, author, comments, imageSrc }) => {
   return (
-    <div className="bg-white p-4 rounded-md shadow-md flex items-center">
+    <div className="bg-white p-4 shadow-md flex items-center">
       <img
         src={imageSrc}
         alt={title}

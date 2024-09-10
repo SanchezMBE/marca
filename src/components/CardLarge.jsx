@@ -1,10 +1,13 @@
 const CardLarge = () => {
   return (
-    <div className="bg-gray-600 p-4 rounded-md shadow-md h-full flex flex-col justify-end">
-      <img src="/marca/src/assets/image_1.webp" alt="Background" className=" w-full h-full object-cover" />
-      <p className="text-white">Descubre los ocho grandes favoritos</p>
-      <h2 className="text-4xl font-bold text-white mb-4">¿Cuál es el mejor once para reinar en Europa?</h2>
+    <div className="relative w-full" style={{ paddingTop: '56.25%' }}> {/* 16:9 Aspect Ratio */}
+    <div className="absolute inset-0 bg-[url('/marca/src/assets/image_1.webp')] bg-cover bg-center bg-no-repeat shadow-md">
+      <div className="absolute inset-0 bg-black bg-opacity-30 p-4 flex flex-col justify-end">
+        <p className="text-white text-sm mb-2">Descubre los ocho grandes favoritos</p>
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">¿Cuál es el mejor once para reinar en Europa?</h2>
+      </div>
     </div>
+  </div>
   )
 };
 
