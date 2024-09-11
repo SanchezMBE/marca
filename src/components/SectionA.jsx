@@ -3,37 +3,113 @@ import CardLarge from "./CardLarge";
 
 const SectionA = () => {
   return (
-    <div className="max-w-6xl mx-auto p-4">
-      <div className="flex flex-col md:flex-row gap-4">
-        <div className="md:flex-1">
-          <CardLarge />
+    <>
+      {/* Layout for large screens */}
+      <div className="hidden lg:block w-[980px] mx-auto p-4 space-y-4">
+        <img className="cursor-pointer w-full" src="/marca/src/assets/ads/caliente_4.gif" alt="Advertisement" />
+
+        <div className="flex flex-row gap-4">
+          <div className="w-[80%]">
+            <CardLarge />
+          </div>
+          <div className="w-[20%] flex items-center justify-center">
+            <img className="w-full" src="/marca/src/assets/ads/caliente_3.gif" alt="Advertisement"/>
+          </div>
         </div>
-        <div className="md:flex-1 space-y-4">
+
+        <div className="grid grid-cols-3 gap-4">
           <CardSmall
             title="Roglic, a corazón abierto"
-            author="N. LABARGA, J. RODRIGUEZ, C. REY Y A. IBÁÑEZ"
-            comments="19"
+            author="BRUNO SÁNCHEZ MURILLO"
+            topic="Fútbol"
             imageSrc="/marca/src/assets/image_2.webp"
           />
           <CardSmall
             title="Francia resucita 'sacrificando' a Mbappé"
-            author="ALBERTO RUBIO"
-            comments="187"
+            author="CÉSAR RAMIREZ"
+            topic="America"
             imageSrc="/marca/src/assets/image_3.webp"
           />
           <CardSmall
             title="Brahim, nuevo héroe nacional"
-            author="JUAN CASTRO"
-            comments="137"
+            author="GABRIEL FUENTES"
+            topic="Liga MX"
             imageSrc="/marca/src/assets/image_2.webp"
           />
         </div>
-        <div className="bg-gray-400">
-          <img src="/marca/src/assets/ads/carls_jr_2.jpeg" alt="Advertisement" className="block md:hidden" />
-          <img src="/marca/src/assets/ads/carls_jr_1.jpeg" alt="Advertisement" className="hidden md:block" />
+      </div>
+
+      {/* Layout for small screens */}
+      <div className="hidden sm:block lg:hidden w-full mx-auto p-4 space-y-4">
+        <img className="cursor-pointer w-full" src="/marca/src/assets/ads/caliente_4.gif" alt="Advertisement" />
+        
+        <div className="w-full">
+          <CardLarge />
+        </div>
+        
+        <div className="grid grid-cols-2 gap-4">
+          <CardSmall
+            title="Roglic, a corazón abierto"
+            author="SÁNCHEZ"
+            topic="Fútbol"
+            imageSrc="/marca/src/assets/image_2.webp"
+          />
+          <CardSmall
+            title="Francia resucita 'sacrificando' a Mbappé"
+            author="CÉSAR RAMIREZ"
+            topic="America"
+            imageSrc="/marca/src/assets/image_3.webp"
+          />
+        </div>
+        
+        <div className="grid grid-cols-2 gap-4">
+          <CardSmall
+            title="Brahim, nuevo héroe nacional"
+            author="GABRIEL FUENTES"
+            topic="Liga MX"
+            imageSrc="/marca/src/assets/image_2.webp"
+          />
+          <CardSmall
+            title=""
+            author=""
+            topic="Ad"
+            imageSrc="/marca/src/assets/ads/caliente_7.gif"
+          />
         </div>
       </div>
-    </div>
+
+      {/* Layout for extra small screens */}
+      <div className="block sm:hidden w-full mx-auto p-4 space-y-4">
+        <img className="cursor-pointer w-full" src="/marca/src/assets/ads/caliente_4.gif" alt="Advertisement" />
+        
+        <div className="w-full">
+          <CardLarge />
+        </div>
+        
+        <CardSmall
+          title="Roglic, a corazón abierto"
+          author="SÁNCHEZ"
+          topic="Fútbol"
+          imageSrc="/marca/src/assets/image_2.webp"
+        />
+        
+        <CardSmall
+          title="Francia resucita 'sacrificando' a Mbappé"
+          author="CÉSAR RAMIREZ"
+          topic="America"
+          imageSrc="/marca/src/assets/image_3.webp"
+        />
+        
+        <CardSmall
+          title="Brahim, nuevo héroe nacional"
+          author="GABRIEL FUENTES"
+          topic="Liga MX"
+          imageSrc="/marca/src/assets/image_2.webp"
+        />
+        
+        <img className="w-full" src="/marca/src/assets/ads/caliente_7.gif" alt="Advertisement" />
+      </div>
+    </>
   );
 };
 
