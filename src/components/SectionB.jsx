@@ -45,31 +45,31 @@ const CardSmallCarousel = () => {
           title="Título 1"
           author="Autor 1"
           comments="10"
-          imageSrc="/marca/public/assets/image_2.webp"
+          imageSrc="/marca/public/assets/image-2.webp"
         />
         <CardSmall
           title="Título 2"
           author="Autor 2"
           comments="20"
-          imageSrc="/marca/public/assets/image_3.webp"
+          imageSrc="/marca/public/assets/image-3.webp"
         />
         <CardSmall
           title="Título 3"
           author="Autor 3"
           comments="30"
-          imageSrc="/marca/public/assets/image_2.webp"
+          imageSrc="/marca/public/assets/image-2.webp"
         />
         <CardSmall
           title="Título 4"
           author="Autor 4"
           comments="40"
-          imageSrc="/marca/public/assets/image_4.webp"
+          imageSrc="/marca/public/assets/image-4.webp"
         />
         <CardSmall
           title="Título 5"
           author="Autor 5"
           comments="50"
-          imageSrc="/marca/public/assets/image_4.webp"
+          imageSrc="/marca/public/assets/image-4.webp"
         />
       </Slider>
     </div>
@@ -91,17 +91,17 @@ const SectionB = () => {
       {/* Sección de CardMedium */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
         <CardMedium
-          imageSrc="/marca/public/assets/image_4.webp"
+          imageSrc="/marca/public/assets/image-4.webp"
           title="Título del CardMedium 1"
           text="Descripción del CardMedium 1"
         />
         <CardMedium
-          imageSrc="/marca/public/assets/image_4.webp"
+          imageSrc="/marca/public/assets/image-4.webp"
           title="Título del CardMedium 2"
           text="Descripción del CardMedium 2"
         />
         <CardMedium
-          imageSrc="/marca/public/assets/image_4.webp"
+          imageSrc="/marca/public/assets/image-4.webp"
           title="Título del CardMedium 3"
           text="Descripción del CardMedium 3"
         />
