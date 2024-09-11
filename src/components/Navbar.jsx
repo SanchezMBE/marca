@@ -40,7 +40,7 @@ const Navbar = () => {
             <p className='hidden lg:inline-block'>La portada de hoy</p>
           </div>
           <div className='px-2 pt-0.5 text-[0.75rem] font-semibold border-r border-gray-300 cursor-pointer'>
-            <img className='inline-block lg:mr-2'  src="/marca/assets/links/radio_marca.png" width="35" alt="Portada" />
+            <img className='inline-block lg:mr-2'  src="/marca/assets/links/radio-marca.png" width="35" alt="Portada" />
             <p className='hidden lg:inline-block'>Radio Marca</p>
           </div>          
           <div className='h-[35] px-2 pt-0.5 text-[0.75rem] font-semibold cursor-pointer'>
