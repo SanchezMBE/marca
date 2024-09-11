@@ -16,7 +16,7 @@ function Teams() {
   };
 
   // Generar automáticamente las rutas de las imágenes
-  const logos = Array.from({ length: 28 }, (_, index) => `/marca/public/assets/teams/team-${index + 1}.png`);
+  const logos = Array.from({ length: 28 }, (_, index) => `../../public/assets/teams/team-${index + 1}.png`);
 
   return (
     <div className="slider-container">
