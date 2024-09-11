@@ -36,20 +36,20 @@ const Navbar = () => {
         {/* Enlaces */}
         <div className="flex">
           <div className='pr-2 text-[0.75rem] font-semibold border-r border-gray-300 cursor-pointer'>
-            <img className='inline-block mr-2'  src="../public/assets/links/portada.jpg" width="30" alt="Portada" />
+            <img className='inline-block mr-2'  src="/marca/assets/links/portada.jpg" width="30" alt="Portada" />
             <p className='hidden lg:inline-block'>La portada de hoy</p>
           </div>
           <div className='px-2 pt-0.5 text-[0.75rem] font-semibold border-r border-gray-300 cursor-pointer'>
-            <img className='inline-block lg:mr-2'  src="../public/assets/links/radio_marca.png" width="35" alt="Portada" />
+            <img className='inline-block lg:mr-2'  src="/marca/assets/links/radio_marca.png" width="35" alt="Portada" />
             <p className='hidden lg:inline-block'>Radio Marca</p>
           </div>          
           <div className='h-[35] px-2 pt-0.5 text-[0.75rem] font-semibold cursor-pointer'>
-            <img className='inline-block mr-2' src="../public/assets/links/cuidateplus.ico" width="35" alt="CuidatePlus" />
+            <img className='inline-block mr-2' src="/marca/assets/links/cuidateplus.ico" width="35" alt="CuidatePlus" />
             <p className='hidden lg:inline-block'>Cuídate Plus</p>
           </div>
         </div>
         {/* Logo */}
-        <img className="aspect-auto w-[145px] cursor-pointer" src="../public/assets/logo.svg" alt="Marca" />
+        <img className="aspect-auto w-[145px] cursor-pointer" src="/marca/assets/logo.svg" alt="Marca" />
         {/* Botones inicio */}
         <div className="flex space-x-4">
           <div className="relative">
@@ -163,7 +163,7 @@ const Navbar = () => {
     <nav className='sm:hidden bg-red-600 text-lg flex justify-between items-center px-5'>   
       {/* Logo */}
       <div className='bg-white p-2 border-b border-red-600'>
-        <img className="aspect-auto h-[30px] cursor-pointer" src="../public/assets/logo.svg" alt="Marca" />
+        <img className="aspect-auto h-[30px] cursor-pointer" src="/marca/assets/logo.svg" alt="Marca" />
       </div>
       {/* Botones inicio */}
       <div className=''>
