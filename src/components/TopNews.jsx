@@ -4,6 +4,7 @@ function TopNews() {
   const sliderRef = useRef(null);
 
   // Array de titulares
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const titularesDeportivos = [
     "Real Madrid campeón",
     "Messi brilla en Miami",

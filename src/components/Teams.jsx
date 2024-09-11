@@ -7,7 +7,7 @@ function Teams() {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     arrows: false,
     draggable: false,
@@ -16,7 +16,7 @@ function Teams() {
   };
 
   // Generar automáticamente las rutas de las imágenes
-  const logos = Array.from({ length: 19 }, (_, index) => `/marca/src/assets/teams/team_${index + 1}.png`);
+  const logos = Array.from({ length: 28 }, (_, index) => `/marca/src/assets/teams/team_${index + 1}.png`);
 
   return (
     <div className="slider-container">
