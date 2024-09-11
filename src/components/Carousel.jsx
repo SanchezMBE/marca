@@ -16,12 +16,12 @@ function Carousel() {
   return (
     <div className="slider-container">
       <Slider {...settings}>
-        <CardMedium imageSrc="/marca/src/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
-        <CardMedium imageSrc="/marca/src/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
-        <CardMedium imageSrc="/marca/src/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
-        <CardMedium imageSrc="/marca/src/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
-        <CardMedium imageSrc="/marca/src/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
-        <CardMedium imageSrc="/marca/src/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
+        <CardMedium imageSrc="/marca/public/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
+        <CardMedium imageSrc="/marca/public/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
+        <CardMedium imageSrc="/marca/public/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
+        <CardMedium imageSrc="/marca/public/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
+        <CardMedium imageSrc="/marca/public/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
+        <CardMedium imageSrc="/marca/public/assets/image_4.webp" title="Título del CardMedium 1" text="Descripción del CardMedium 1" />
       </Slider>
     </div>
   );
